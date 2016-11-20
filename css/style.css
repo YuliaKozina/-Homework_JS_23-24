@@ -4,33 +4,65 @@
 }
 
 .wrapper {
-    width: 350px;
-    height: 350px;
-    margin: 20px;
+    width: auto;
+    height: 700px;
     padding: 20px;
+    background: linear-gradient(#1d0437, #5d049b, #9E04FF);
+}
+
+h1 {
+    border-bottom: 3px solid #9E04FF;
+    color: #fff;
+    font-family: Calibri, sans-serif;
+    font-size: 30px;
+    text-align: center;
 }
 
 .item-list {
-    margin-bottom: 20px;
+    width: 500px;
+    margin: 20px auto;
+    color: #fff;
     font-family: Calibri, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
+    list-style: none;
+    text-align: center;
+}
+
+.item-list li {
+    border-bottom: 1px dotted #ffffff;
+    line-height: 50px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px auto;
 }
 
 .item-value {
-    width: 150px;
-    height: 20px;
+    width: 200px;
+    height: 30px;
     margin-left: -20px;
     padding-left: 10px;
     border: 1px solid #000;
     font-family: Calibri, sans-serif;
+    font-size: 16px;
 }
 
 .item-add {
     width: 50px;
-    height: 22px;
-    margin-right: 10px;
+    height: 30px;
+    margin-left: 20px;
+    border: 1px dotted #fff;
+    background: none;
+    color: #fff;
     font-family: Calibri, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
+}
+
+.item-delete {
+    padding-left: 20px;
 }
 
 .item-delete:hover {
