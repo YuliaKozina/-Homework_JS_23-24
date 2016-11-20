@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.item-list {
+    margin-bottom: 20px;
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
+}
+
+.item-value {
+    width: 150px;
+    height: 20px;
+    margin-left: -20px;
+    padding-left: 10px;
+    border: 1px solid #000;
+    font-family: Calibri, sans-serif;
+}
+
+.item-add {
+    width: 50px;
+    height: 22px;
+    margin-right: 10px;
+    font-family: Calibri, sans-serif;
+    font-size: 14px;
+}
+
+.item-delete:hover {
+    color: #ff0000;
+}
